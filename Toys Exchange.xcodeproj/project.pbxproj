@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB5B4FB28290F3200F22BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B4FA28290F3200F22BAD /* AppDelegate.swift */; };
+		CCB5B4FD28290F3200F22BAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B4FC28290F3200F22BAD /* SceneDelegate.swift */; };
+		CCB5B4FF28290F3200F22BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B4FE28290F3200F22BAD /* ViewController.swift */; };
+		CCB5B50228290F3200F22BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB5B50028290F3200F22BAD /* Main.storyboard */; };
+		CCB5B50528290F3200F22BAD /* Toys_Exchange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B50328290F3200F22BAD /* Toys_Exchange.xcdatamodeld */; };
+		CCB5B50728290F3D00F22BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB5B50628290F3D00F22BAD /* Assets.xcassets */; };
+		CCB5B50A28290F3D00F22BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB5B50828290F3D00F22BAD /* LaunchScreen.storyboard */; };
+		CCB5B51528290F3E00F22BAD /* Toys_ExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B51428290F3E00F22BAD /* Toys_ExchangeTests.swift */; };
+		CCB5B51F28290F3E00F22BAD /* Toys_ExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B51E28290F3E00F22BAD /* Toys_ExchangeUITests.swift */; };
+		CCB5B52128290F3E00F22BAD /* Toys_ExchangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB5B52028290F3E00F22BAD /* Toys_ExchangeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCB5B51128290F3E00F22BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB5B4EF28290F3100F22BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB5B4F628290F3200F22BAD;
+			remoteInfo = "Toys Exchange";
+		};
+		CCB5B51B28290F3E00F22BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCB5B4EF28290F3100F22BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB5B4F628290F3200F22BAD;
+			remoteInfo = "Toys Exchange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCB5B4F728290F3200F22BAD /* Toys Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toys Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB5B4FA28290F3200F22BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCB5B4FC28290F3200F22BAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCB5B4FE28290F3200F22BAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB5B50128290F3200F22BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCB5B50428290F3200F22BAD /* Toys_Exchange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Toys_Exchange.xcdatamodel; sourceTree = "<group>"; };
+		CCB5B50628290F3D00F22BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCB5B50928290F3D00F22BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCB5B50B28290F3D00F22BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB5B51028290F3E00F22BAD /* Toys ExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toys ExchangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB5B51428290F3E00F22BAD /* Toys_ExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toys_ExchangeTests.swift; sourceTree = "<group>"; };
+		CCB5B51A28290F3E00F22BAD /* Toys ExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toys ExchangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB5B51E28290F3E00F22BAD /* Toys_ExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toys_ExchangeUITests.swift; sourceTree = "<group>"; };
+		CCB5B52028290F3E00F22BAD /* Toys_ExchangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toys_ExchangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB5B4F428290F3200F22BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB5B50D28290F3E00F22BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB5B51728290F3E00F22BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB5B4EE28290F3100F22BAD = {
+			isa = PBXGroup;
+			children = (
+				CCB5B4F928290F3200F22BAD /* Toys Exchange */,
+				CCB5B51328290F3E00F22BAD /* Toys ExchangeTests */,
+				CCB5B51D28290F3E00F22BAD /* Toys ExchangeUITests */,
+				CCB5B4F828290F3200F22BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB5B4F828290F3200F22BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5B4F728290F3200F22BAD /* Toys Exchange.app */,
+				CCB5B51028290F3E00F22BAD /* Toys ExchangeTests.xctest */,
+				CCB5B51A28290F3E00F22BAD /* Toys ExchangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB5B4F928290F3200F22BAD /* Toys Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5B4FA28290F3200F22BAD /* AppDelegate.swift */,
+				CCB5B4FC28290F3200F22BAD /* SceneDelegate.swift */,
+				CCB5B4FE28290F3200F22BAD /* ViewController.swift */,
+				CCB5B50028290F3200F22BAD /* Main.storyboard */,
+				CCB5B50628290F3D00F22BAD /* Assets.xcassets */,
+				CCB5B50828290F3D00F22BAD /* LaunchScreen.storyboard */,
+				CCB5B50B28290F3D00F22BAD /* Info.plist */,
+				CCB5B50328290F3200F22BAD /* Toys_Exchange.xcdatamodeld */,
+			);
+			path = "Toys Exchange";
+			sourceTree = "<group>";
+		};
+		CCB5B51328290F3E00F22BAD /* Toys ExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5B51428290F3E00F22BAD /* Toys_ExchangeTests.swift */,
+			);
+			path = "Toys ExchangeTests";
+			sourceTree = "<group>";
+		};
+		CCB5B51D28290F3E00F22BAD /* Toys ExchangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5B51E28290F3E00F22BAD /* Toys_ExchangeUITests.swift */,
+				CCB5B52028290F3E00F22BAD /* Toys_ExchangeUITestsLaunchTests.swift */,
+			);
+			path = "Toys ExchangeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB5B4F628290F3200F22BAD /* Toys Exchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB5B52428290F3E00F22BAD /* Build configuration list for PBXNativeTarget "Toys Exchange" */;
+			buildPhases = (
+				CCB5B4F328290F3200F22BAD /* Sources */,
+				CCB5B4F428290F3200F22BAD /* Frameworks */,
+				CCB5B4F528290F3200F22BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toys Exchange";
+			productName = "Toys Exchange";
+			productReference = CCB5B4F728290F3200F22BAD /* Toys Exchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCB5B50F28290F3E00F22BAD /* Toys ExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB5B52728290F3E00F22BAD /* Build configuration list for PBXNativeTarget "Toys ExchangeTests" */;
+			buildPhases = (
+				CCB5B50C28290F3E00F22BAD /* Sources */,
+				CCB5B50D28290F3E00F22BAD /* Frameworks */,
+				CCB5B50E28290F3E00F22BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB5B51228290F3E00F22BAD /* PBXTargetDependency */,
+			);
+			name = "Toys ExchangeTests";
+			productName = "Toys ExchangeTests";
+			productReference = CCB5B51028290F3E00F22BAD /* Toys ExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCB5B51928290F3E00F22BAD /* Toys ExchangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB5B52A28290F3E00F22BAD /* Build configuration list for PBXNativeTarget "Toys ExchangeUITests" */;
+			buildPhases = (
+				CCB5B51628290F3E00F22BAD /* Sources */,
+				CCB5B51728290F3E00F22BAD /* Frameworks */,
+				CCB5B51828290F3E00F22BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCB5B51C28290F3E00F22BAD /* PBXTargetDependency */,
+			);
+			name = "Toys ExchangeUITests";
+			productName = "Toys ExchangeUITests";
+			productReference = CCB5B51A28290F3E00F22BAD /* Toys ExchangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB5B4EF28290F3100F22BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CCB5B4F628290F3200F22BAD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CCB5B50F28290F3E00F22BAD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CCB5B4F628290F3200F22BAD;
+					};
+					CCB5B51928290F3E00F22BAD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CCB5B4F628290F3200F22BAD;
+					};
+				};
+			};
+			buildConfigurationList = CCB5B4F228290F3100F22BAD /* Build configuration list for PBXProject "Toys Exchange" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCB5B4EE28290F3100F22BAD;
+			productRefGroup = CCB5B4F828290F3200F22BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB5B4F628290F3200F22BAD /* Toys Exchange */,
+				CCB5B50F28290F3E00F22BAD /* Toys ExchangeTests */,
+				CCB5B51928290F3E00F22BAD /* Toys ExchangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB5B4F528290F3200F22BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB5B50A28290F3D00F22BAD /* LaunchScreen.storyboard in Resources */,
+				CCB5B50728290F3D00F22BAD /* Assets.xcassets in Resources */,
+				CCB5B50228290F3200F22BAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB5B50E28290F3E00F22BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB5B51828290F3E00F22BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB5B4F328290F3200F22BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB5B4FF28290F3200F22BAD /* ViewController.swift in Sources */,
+				CCB5B4FB28290F3200F22BAD /* AppDelegate.swift in Sources */,
+				CCB5B4FD28290F3200F22BAD /* SceneDelegate.swift in Sources */,
+				CCB5B50528290F3200F22BAD /* Toys_Exchange.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB5B50C28290F3E00F22BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB5B51528290F3E00F22BAD /* Toys_ExchangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB5B51628290F3E00F22BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB5B52128290F3E00F22BAD /* Toys_ExchangeUITestsLaunchTests.swift in Sources */,
+				CCB5B51F28290F3E00F22BAD /* Toys_ExchangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCB5B51228290F3E00F22BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB5B4F628290F3200F22BAD /* Toys Exchange */;
+			targetProxy = CCB5B51128290F3E00F22BAD /* PBXContainerItemProxy */;
+		};
+		CCB5B51C28290F3E00F22BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCB5B4F628290F3200F22BAD /* Toys Exchange */;
+			targetProxy = CCB5B51B28290F3E00F22BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCB5B50028290F3200F22BAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB5B50128290F3200F22BAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCB5B50828290F3D00F22BAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB5B50928290F3D00F22BAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB5B52228290F3E00F22BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCB5B52328290F3E00F22BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB5B52528290F3E00F22BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Toys Exchange/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Toys-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB5B52628290F3E00F22BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Toys Exchange/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Toys-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCB5B52828290F3E00F22BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Toys-ExchangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toys Exchange.app/Toys Exchange";
+			};
+			name = Debug;
+		};
+		CCB5B52928290F3E00F22BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Toys-ExchangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toys Exchange.app/Toys Exchange";
+			};
+			name = Release;
+		};
+		CCB5B52B28290F3E00F22BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Toys-ExchangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toys Exchange";
+			};
+			name = Debug;
+		};
+		CCB5B52C28290F3E00F22BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Toys-ExchangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toys Exchange";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB5B4F228290F3100F22BAD /* Build configuration list for PBXProject "Toys Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB5B52228290F3E00F22BAD /* Debug */,
+				CCB5B52328290F3E00F22BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB5B52428290F3E00F22BAD /* Build configuration list for PBXNativeTarget "Toys Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB5B52528290F3E00F22BAD /* Debug */,
+				CCB5B52628290F3E00F22BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB5B52728290F3E00F22BAD /* Build configuration list for PBXNativeTarget "Toys ExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB5B52828290F3E00F22BAD /* Debug */,
+				CCB5B52928290F3E00F22BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB5B52A28290F3E00F22BAD /* Build configuration list for PBXNativeTarget "Toys ExchangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB5B52B28290F3E00F22BAD /* Debug */,
+				CCB5B52C28290F3E00F22BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCB5B50328290F3200F22BAD /* Toys_Exchange.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCB5B50428290F3200F22BAD /* Toys_Exchange.xcdatamodel */,
+			);
+			currentVersion = CCB5B50428290F3200F22BAD /* Toys_Exchange.xcdatamodel */;
+			path = Toys_Exchange.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCB5B4EF28290F3100F22BAD /* Project object */;
+}
