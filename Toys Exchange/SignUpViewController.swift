@@ -13,6 +13,21 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passwordTxtFld: UITextField!
     @IBOutlet weak var emailTxtFld: UITextField!
     var activeTextField:UITextField!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //print(UserDefaults.standard.object(forKey: "accesstoken"))
+        textFld(textField: nameTxtFld)
+        textFld(textField: emailTxtFld)
+        textFld(textField: passwordTxtFld)
+        textFld(textField: reenterPassword)
+        nameTxtFld.delegate = self
+        emailTxtFld.delegate = self
+        passwordTxtFld.delegate = self
+        reenterPassword.delegate = self
+        let center: NotificationCenter = NotificationCenter.default
+        center.addObserver(self, selector: #selector(keyboardShown(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        center.addObserver(self, selector: #selector(keyboardHidden(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
     func validateEmail(enteredEmail:String) -> Bool {
         let emailFormat = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailFormat)
@@ -91,21 +106,7 @@ class SignUpViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
         }        
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        //print(UserDefaults.standard.object(forKey: "accesstoken"))
-        textFld(textField: nameTxtFld)
-        textFld(textField: emailTxtFld)
-        textFld(textField: passwordTxtFld)
-        textFld(textField: reenterPassword)
-        nameTxtFld.delegate = self
-        emailTxtFld.delegate = self
-        passwordTxtFld.delegate = self
-        reenterPassword.delegate = self
-        let center: NotificationCenter = NotificationCenter.default
-        center.addObserver(self, selector: #selector(keyboardShown(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-        center.addObserver(self, selector: #selector(keyboardHidden(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
-    }
+    
     @objc func keyboardShown(notification:Notification){
         let info:NSDictionary = notification.userInfo as! NSDictionary
         let keyboardsize = (info[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue

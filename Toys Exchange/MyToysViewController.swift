@@ -23,8 +23,8 @@ class MyToysViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let firstTime = UserDefaults.standard.bool(forKey: "firstTime")
         if firstTime {
             UserDefaults.standard.set(false, forKey: "firstTime")
-            let whatsNew = WhatsNew(title: "Toys", items: [WhatsNew.Item(title: "View Toys", subtitle: "You can view toys of people across country and swap them", image: UIImage(named: "toys1")),
-                                                           WhatsNew.Item(title: "Swap Toys", subtitle: "Select a toy and swap with a toy of yours", image: UIImage(named: "swap"))])
+            let whatsNew = WhatsNew(title: "My Toys", items: [WhatsNew.Item(title: "My Toys", subtitle: "You can view all of  your toys", image: UIImage(named: "view")),
+                                                           WhatsNew.Item(title: "Edit Toys", subtitle: "Edit the details of your toys", image: UIImage(named: "edit1"))])
             let vc = WhatsNewViewController(whatsNew: whatsNew)
             vc.isModalInPresentation = true
             present(vc, animated: true, completion: nil)

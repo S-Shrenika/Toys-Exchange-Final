@@ -22,8 +22,10 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         let firstTime = UserDefaults.standard.bool(forKey: "firstTime")
         if firstTime {
             UserDefaults.standard.set(false, forKey: "firstTime")
-            let whatsNew = WhatsNew(title: "Toys", items: [WhatsNew.Item(title: "View Toys", subtitle: "You can view toys of people across country and swap them", image: UIImage(named: "toys1")),
-                                                           WhatsNew.Item(title: "Swap Toys", subtitle: "Select a toy and swap with a toy of yours", image: UIImage(named: "swap"))])
+            let whatsNew = WhatsNew(title: "Profile", items: [WhatsNew.Item(title: "My Details", subtitle: "View your personal details", image: UIImage(named: "profile")),
+                WhatsNew.Item(title: "My Requests", subtitle: "View all the toys you requested and track their status", image: UIImage(named: "req")),
+                WhatsNew.Item(title: "My Approvals", subtitle: "Make an approval for the toys requested by others", image: UIImage(named: "approve"))
+                                                             ])
             let vc = WhatsNewViewController(whatsNew: whatsNew)
             vc.isModalInPresentation = true
             present(vc, animated: true, completion: nil)

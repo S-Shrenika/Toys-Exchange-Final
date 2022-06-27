@@ -31,8 +31,7 @@ class AddToysViewController: UIViewController, UITableViewDelegate, UITableViewD
         let firstTime = UserDefaults.standard.bool(forKey: "firstTime")
         if firstTime {
             UserDefaults.standard.set(false, forKey: "firstTime")
-            let whatsNew = WhatsNew(title: "Toys", items: [WhatsNew.Item(title: "View Toys", subtitle: "You can view toys of people across country and swap them", image: UIImage(named: "toys1")),
-                                                           WhatsNew.Item(title: "Swap Toys", subtitle: "Select a toy and swap with a toy of yours", image: UIImage(named: "swap"))])
+            let whatsNew = WhatsNew(title: "Add Toys", items: [WhatsNew.Item(title: "Add Toys", subtitle: "You can add toys by specifying the relevant details", image: UIImage(named: "add"))])
             let vc = WhatsNewViewController(whatsNew: whatsNew)
             vc.isModalInPresentation = true
             present(vc, animated: true, completion: nil)
