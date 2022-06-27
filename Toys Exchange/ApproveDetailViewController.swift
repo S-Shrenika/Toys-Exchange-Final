@@ -25,6 +25,7 @@ class ApproveDetailViewController: UIViewController {
     @IBOutlet weak var toyName: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //viewdidload()
         innerview.backgroundColor = UIColor(red: 0, green: 38/255.0, blue: 119/255.0, alpha: 1.0).withAlphaComponent(0.50)
         innerview.isOpaque = false
         innerview.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
