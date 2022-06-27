@@ -13,6 +13,6 @@ class AboutusViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.updateNavigationBarColor()
         self.navigationController?.navigationBar.tintColor = .white
-        txtView.text = "A toy exchange app where people can exchange their toys."
+        txtView.text = "A toy exchange app where people can exchange their toys. It saves alot of money"
     }
 }
