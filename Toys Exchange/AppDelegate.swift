@@ -10,13 +10,25 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        manageNavigationBar()
+//        RunLoop.current.run(until: Date(timeIntervalSinceNow: 10.0))
+        Thread.sleep(forTimeInterval: 2)
+//        UILabel.appearance().font = UIFont(name: "Chalkboard SE", size: 19.0)
         return true
     }
+    func manageNavigationBar(){
+            if #available(iOS 13.0, *){
+                let navBarAppearance = UINavigationBarAppearance()
+                navBarAppearance.configureWithOpaqueBackground()
+                navBarAppearance.backgroundColor = UIColor(red: 0, green: 38/255.0, blue: 119/255.0, alpha: 1.0)
+                navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+                navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+                UINavigationBar.appearance().tintColor = .white
+                UINavigationBar.appearance(whenContainedInInstancesOf: [UINavigationController.self]).standardAppearance = navBarAppearance
+                UINavigationBar.appearance(whenContainedInInstancesOf: [UINavigationController.self]).scrollEdgeAppearance = navBarAppearance
+            }
+        }
 
     // MARK: UISceneSession Lifecycle
 
